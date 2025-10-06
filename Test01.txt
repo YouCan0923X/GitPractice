@@ -24,6 +24,10 @@ $ git branch
 Branch移動
 git checkout testbranch
 
+git push -u origin main
+一言で言うと: 「ローカルのmainブランチの内容を、originという名前のリモートリポジトリにあるmainブランチにアップロードしてね。
+そして、これからはこの組み合わせをデフォルトとして記憶してね」という意味です。
 
-
+git remote add origin https://github.com/YouCan0923X/GitPractice.git
+一言で言うと: 「originという名前で、このGitHubのURLをリモートの接続先として登録してね」という意味です。
 
